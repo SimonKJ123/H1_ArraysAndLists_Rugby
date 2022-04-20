@@ -2,7 +2,26 @@
 {
     internal static class Skating
     {
-        //My First Array
+        ////Teachers Array & List
+
+        //List<object> list = new List<object>() { "one", "two" , 3};
+
+        //object[] objArr = new object[3];
+
+        //void AddToList()
+        //{
+        //    list.Add("Three");
+        //}
+
+        //void Printlist()
+        //{
+        //    foreach (var item in list)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+
+
         private static string[] Skatingstuff = new string[5];
         private static int counter;
         public static void AddSkatingStuff() 
