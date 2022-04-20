@@ -9,15 +9,18 @@
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("|---------|-----------|");
             for (int i = 0; i < input.Length; i++)
             {
                 Console.WriteLine(input[i] + " " );
             }
+            Console.WriteLine("|---------|-----------|");
             while (counter < input.Length)
             {
                 Console.WriteLine(input[counter]);
                 counter++;
             }
+            Console.WriteLine("|_________|___________|");
 
         }
     }

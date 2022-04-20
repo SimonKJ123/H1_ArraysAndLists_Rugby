@@ -7,11 +7,11 @@
 
         public static string[] Rugbyplayerlist()
         {
-            RugbySpiller[0] = "Zinzan Brooke";
-            RugbySpiller[1] = "Gareth Edwards";
-            RugbySpiller[2] = "Jonny Wilkinson";
-            RugbySpiller[3] = "Martin Johnson";
-            RugbySpiller[4] = "Jonah Lomu";
+            RugbySpiller[0] = "| Zinzan  | Brooke    |";
+            RugbySpiller[1] = "| Gareth  | Edwards   |";
+            RugbySpiller[2] = "| Jonny   | Wilkinson |";
+            RugbySpiller[3] = "| Martin  | Johnson   |";
+            RugbySpiller[4] = "| Jonah   | Lomu      |";
 
             return RugbySpiller;
         } 
