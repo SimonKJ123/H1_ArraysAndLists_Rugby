@@ -3,19 +3,19 @@
      internal class Tools
     {
         private static int counter;
-        internal static void PrintArray(string[] input )
+        internal void PrintArray(string[] input )
         {
-            foreach (var item in RugbySpiller)
+            foreach (var item in input)
             {
                 Console.WriteLine(item);
             }
-            for (int i = 0; i < RugbySpiller.Length; i++)
+            for (int i = 0; i < input.Length; i++)
             {
-                Console.WriteLine(RugbySpiller[i] + " " + i);
+                Console.WriteLine(input[i] + " " );
             }
-            while (counter < RugbySpiller.Length)
+            while (counter < input.Length)
             {
-                Console.WriteLine(RugbySpiller[counter]);
+                Console.WriteLine(input[counter]);
                 counter++;
             }
 

@@ -1,4 +1,5 @@
 ﻿using H1_Rugby;
 
-Rugbyplayers Rugbyplayerlist = new Rugbyplayers();
-Tools PrintArray = new Tools();
+Rugbyplayers.Rugbyplayerlist();
+Tools T = new Tools();
+T.PrintArray(Rugbyplayers.Rugbyplayerlist());
